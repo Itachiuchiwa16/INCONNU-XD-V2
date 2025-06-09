@@ -3,7 +3,7 @@ const fs = require("fs");
 require("dotenv").config();
 
 const config = {
-  SESSION_ID: process.env.SESSION_ID || "",
+  SESSION_ID: process.env.SESSION_ID || "INCONNU~XD~pR4mha6B#gNZdOyHgzM5bvPcQ5xcHAoNd1nkHP7mfrxYmpK2NYCQ",
   PREFIX: process.env.PREFIX || '.',
    BOT_NAME: process.env.BOT_NAME || "INCONNU XD V2",
    BOT: process.env.BOT || "hello 👋",
@@ -32,7 +32,7 @@ const config = {
   /*lets add auto bot respond*/
   CHAT_BOT: process.env.CHAT_BOT !== undefined ? process.env.CHAT_BOT === 'true' : false,
   /*lets add chat bot mode*/
-  CHAT_BOT_MODE: process.env.CHAT_BOT_MODE || "public",
+  CHAT_BOT_MODE: process.env.CHAT_BOT_MODE || "private",
   /*how about Lydia chat bot*/
   LYDEA: process.env.LYDEA !== undefined ? process.env.LYDEA === 'true' : false,
   REJECT_CALL: process.env.REJECT_CALL !== undefined ? process.env.REJECT_CALL === 'true' : false, 
@@ -40,8 +40,8 @@ const config = {
   MODE: process.env.MODE || "public",
   DELETED_MESSAGES_CHAT_ID: process.env.DELETED_MESSAGES_CHAT_ID || "554488138425@s.whatsapp.net",
   OWNER_NAME: process.env.OWNER_NAME || "INCONNU BOY",
-  OWNER_NUMBER: process.env.OWNER_NUMBER || "554488138425",
-  SUDO_NUMBER: process.env.SUDO_NUMBER || "554488138425",
+  OWNER_NUMBER: process.env.OWNER_NUMBER || "221787031624",
+  SUDO_NUMBER: process.env.SUDO_NUMBER || "221787031626",
   GEMINI_KEY: process.env.GEMINI_KEY || "AIzaSyCUPaxfIdZawsKZKqCqJcC-GWiQPCXKTDc",
   WELCOME: process.env.WELCOME !== undefined ? process.env.WELCOME === 'true' : false, 
 };
